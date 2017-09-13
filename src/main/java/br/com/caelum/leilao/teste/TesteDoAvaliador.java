@@ -15,11 +15,12 @@ public class TesteDoAvaliador {
 
     leilao.propoe(new Lance(joao, 300));
     leilao.propoe(new Lance(jose, 400)); //Maior lance dado.
-    leilao.propoe(new Lance(maria, 250));
+    leilao.propoe(new Lance(maria, 250)); //Menor lance dado.
 
     Avaliador leiloeiro = new Avaliador();
     leiloeiro.avalia(leilao);
 
     System.out.println(leiloeiro.getMaiorLance());
+    System.out.println(leiloeiro.getMenorLance());
   }
 }
