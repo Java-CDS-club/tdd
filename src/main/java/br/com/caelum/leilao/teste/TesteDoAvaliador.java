@@ -13,9 +13,9 @@ public class TesteDoAvaliador {
 
     Leilao leilao = new Leilao("Playstation 3 Novo");
 
-    leilao.propoe(new Lance(joao, 300));
-    leilao.propoe(new Lance(jose, 400)); //Maior lance dado.
-    leilao.propoe(new Lance(maria, 250)); //Menor lance dado.
+    leilao.propoe(new Lance(joao, 250)); //Menor lance dado.
+    leilao.propoe(new Lance(jose, 300)); 
+    leilao.propoe(new Lance(maria, 400)); //Maior lance dado.
 
     Avaliador leiloeiro = new Avaliador();
     leiloeiro.avalia(leilao);
