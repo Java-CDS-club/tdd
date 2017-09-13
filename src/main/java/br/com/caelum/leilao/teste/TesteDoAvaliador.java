@@ -1,17 +1,17 @@
 package br.com.caelum.leilao.teste;
 
+import org.junit.Assert;
 import org.junit.Test;
 
 import br.com.caelum.leilao.dominio.Lance;
 import br.com.caelum.leilao.dominio.Leilao;
 import br.com.caelum.leilao.dominio.Usuario;
 import br.com.caelum.leilao.servico.Avaliador;
-import junit.framework.Assert;
 
 public class TesteDoAvaliador {
 
   @Test
-  public void main() { // Deve ser "public void", não pode ser estático nem receber argumentos.
+  public void deveEntenderLancesEmOrdemCrescente() { // Deve ser "public void", não pode ser estático nem receber argumentos.
     // Parte 1: Montar cenário.
     Usuario joao = new Usuario("João");
     Usuario jose = new Usuario("José");
