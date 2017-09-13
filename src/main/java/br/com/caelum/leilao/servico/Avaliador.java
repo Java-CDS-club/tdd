@@ -7,7 +7,7 @@ public class Avaliador {
 
   private double maiorDeTodos = Double.NEGATIVE_INFINITY;
 
-  public double getMaiorDeTodos() {
+  public double getMaiorLance() {
     return maiorDeTodos;
   }
 
