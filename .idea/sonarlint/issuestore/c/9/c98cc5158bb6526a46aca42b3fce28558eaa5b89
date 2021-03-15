@@ -1,0 +1,8 @@
+
+O
+java:S1128"-Remove this unused import 'java.util.Arrays'.(î–˜Éüÿÿÿÿ8®ÉæÀ‚/
+S
+java:S1128"1Remove this unused import 'java.util.Collection'.(¹ÉÐšùÿÿÿÿ8®ÉæÀ‚/
+U	java:S1069"9Replace this use of System.out or System.err by a logger.(Ä¾ÿí8Ýñ¼Á‚/
+N
+java:S1128"1Remove this unused import 'java.util.Comparator'.(î¹ó¹8®ÉæÀ‚/
